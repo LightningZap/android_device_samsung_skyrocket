@@ -22,7 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/skyrocket/overlay
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/skyrocket/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/skyrocket/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc
+    device/samsung/skyrocket/ramdisk/initlogo.rle:root/initlogo.rle
 
 # BT firmware
 PRODUCT_COPY_FILES += \
