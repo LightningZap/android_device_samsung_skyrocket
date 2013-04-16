@@ -17,6 +17,9 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/skyrocket/skyrocket-vendor.mk)
 
+# Adding Lightning Zap!
+$(call inherit-product-if-exists, vendor/lz-kernel/lightningzap.mk)
+
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/skyrocket/overlay
 
