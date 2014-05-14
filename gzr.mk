@@ -3,6 +3,10 @@ $(call inherit-product, device/samsung/skyrocket/full_skyrocket.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/gzr/config/gsm.mk)
 
+# Boot animation dpi
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
+
 # Enhanced NFC
 $(call inherit-product, vendor/gzr/config/nfc_enhanced.mk)
 
@@ -13,4 +17,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I727 TARGET_DEVICE=SGH-I727 BUI
 
 PRODUCT_NAME := gzr_skyrocket
 PRODUCT_DEVICE := skyrocket
-
