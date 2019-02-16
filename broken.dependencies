@@ -1,28 +1,28 @@
 [
   {
-    "repository": "GzRoms-Redux/android_proprietary_vendor_samsung",
+    "repository": "TheMuppets/android_proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "branch": "kitkat"
+    "branch": "cm-12.1"
   },
   {
-    "repository": "GzRoms-Redux/android_device_samsung_qcom-common",
+    "repository": "LineageOS/android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
-    "branch": "kitkat"
+    "branch": "cm-12.1"
   },
   {
-    "repository": "GzRoms-Redux/android_device_samsung_msm8660-common",
+    "repository": "LightningZap/android_device_samsung_qcom-common",
     "target_path": "device/samsung/msm8660-common",
-    "branch": "kitkat"
+    "branch": "cm-11.0"
   },
   {
-    "repository": "GzRoms-Redux/android_device_samsung_celox-common",
+    "repository": "LineageOS/android_device_samsung_celox-common",
     "target_path": "device/samsung/celox-common",
-    "branch": "kitkat"
+    "branch": "cm-12.1"
   },
   {
-    "repository": "GzRoms-Redux/android_kernel_samsung_msm8660-common",
+    "repository": "LightningZap/msm8660-common_lz_kernel",
     "target_path": "kernel/samsung/msm8660-common",
-    "branch": "kitkat"
+    "branch": "cm-11.0"
   }
 ]
 
